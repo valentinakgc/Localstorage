@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: Times New Roman;
+}
+
+header{
+    background-color: rgb(221, 81, 81);
+    color: #fff;
+    font-family: Tahoma;
+    padding: 2rem;
+}
+
+footer{
+    background-color: rgb(95, 9, 9);
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+
+footer li{
+    list-style: none;
+}
+
+nav{
+    background-color: rgb(95, 9, 9);
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    transition: background-color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+li a:hover{
+background-color: brown;
+}
+
+.container{
+    width: 70vw;
+    margin: auto;
+    border: 2px solid rgb(95, 9, 9);
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.container h2{
+background-color: brown;
+color: rgb(255, 255, 255);
+padding: 1rem;
+text-align: center;
+border-radius: 1rem;
+}
+
+.container input{
+    width: 62vw;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid brown;
+}
+
+.container input:hover{
+    background-color: rgb(207, 133, 133);
+}
+
+.container button{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+    background-color: rgb(95, 9, 9);
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: brown;
+}
+
+.list{
+    width: 100%;
+}
+
+.list table{
+    width: 100%;
+}
+
+.list table th{
+    background-color:rgb(95, 9, 9);
+    padding: 1rem;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+.list table td{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 2px;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+.div-erro{
+    margin: auto;
+    width: 70%;
+    border: 2px solid brown;
+    background-color: rgb(95, 9, 9);
+    color: antiquewhite;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    display: none;
+}
